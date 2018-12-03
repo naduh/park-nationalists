@@ -2,4 +2,4 @@
 The People for the Proliferation of National Parks in America
 
 ## Website
-[link]casprice.github.io/park-nationalists
+[Click here](https://casprice.github.io/park-nationalists)
