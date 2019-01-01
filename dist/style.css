@@ -1,6 +1,11 @@
 @font-face {
-	font-family: Nocturne-Rough;
-	src: url("dist/fonts/TTF/Nocturne-Rough.ttf") format("truetype");
+	font-family: 'Nocturne-Rough';
+	src: url('fonts/TTF/NocturneRough.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Cunia';
+	src: url('fonts/Cunia.ttf') format('truetype');
 }
 
 * {
@@ -10,7 +15,7 @@
 }
 
 body {
-	font-family: "Heebo", sans-serif;
+	font-family: "Titillium Web", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -90,7 +95,12 @@ a {
 }
 
 .title {
-	font-family: Nocturne-Rough sans-serif;
+	font-family: 'Cunia', 'Heebo', sans-serif;
+	font-size: 80px;
+	color: green;
+	font-weight: normal;
+	display: flex;
+	position: relative;
 }
 
 .bg {
@@ -101,6 +111,9 @@ a {
 
 .main-img {
 	width: 100%;
+	display: flex;
+	position: relative;
+	top: 0px;
 }
 
 footer {
