@@ -1,10 +1,10 @@
 @font-face {
-	font-family: 'Nocturne-Rough';
+	font-family: "Nocturne-Rough";
 	src: url('fonts/TTF/NocturneRough.ttf') format('truetype');
 }
 
 @font-face {
-	font-family: 'Cunia';
+	font-family: "Cunia";
 	src: url('fonts/Cunia.ttf') format('truetype');
 }
 
@@ -30,14 +30,17 @@ a {
 .navigation {
 	display: flex;
 	position: fixed;
+	justify-content: center;
 	width: 100%;
-	height: 70px;
+	height: 60px;
 	background-color: rgba(250, 250, 250, 0.75);
   z-index: 2;
 }
 
 .half-nav {
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 40%;
 	height: 100%;
 }
@@ -45,7 +48,7 @@ a {
 .nav-items {
 	display: flex;
 	width: 100%;
-	margin: 0 10%;
+	margin: 0 15%;
 	justify-content: space-around;
 }
 
@@ -55,12 +58,25 @@ a {
 }
 
 .left {
+	margin: 0 0 0 15%;
+}
+
+.logo-container {
+	display: flex;
+	width: 15%;
+	height: 110px;
 	justify-content: center;
 	align-items: center;
+	background-color: white;
+	border-left: 10px solid green;
+	border-bottom: 10px solid green;
+	border-right: 10px solid green;
 }
 
 .logo-text {
+	font-family: "Cunia", "Titillium Web", sans-serif;
 	font-size: 30px;
+	color: green;
 }
 
 .logo {
@@ -71,8 +87,7 @@ a {
 }
 
 .right {
-	justify-content: center;
-	align-items: center;
+	margin: 0 15% 0 0;
 }
 
 .landing-home {
@@ -84,18 +99,18 @@ a {
   margin: 0 8%;
   position: relative;
   z-index: 1;
-  top: 70px;
+  top: 60px;
 }
 
 .divider {
-	margin: 10px 0;
+	margin: 10px 0 30px 0;
   width: 100%;
   height: 10px;
   background-color: green;
 }
 
 .title {
-	font-family: 'Cunia', 'Heebo', sans-serif;
+	font-family: "Cunia", "Heebo", sans-serif;
 	font-size: 80px;
 	color: green;
 	font-weight: normal;
